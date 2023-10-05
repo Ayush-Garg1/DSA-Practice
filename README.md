@@ -6,6 +6,7 @@ And with Collection Framework also
 
 Here's what We have DONE :
 
-STACK IMPLEMENTAION Using ARRAY
 
-VALID PARENTHESIS (Application of stack)
+1. STACK IMPLEMENTAION Using ARRAY
+
+2. VALID PARENTHESIS (Application of stack)
