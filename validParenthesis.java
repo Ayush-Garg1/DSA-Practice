@@ -12,22 +12,27 @@ class stack{
             top = -1;
         }
 
+        //push the character
         void push(char data){
             st[++top] = data;
         }
 
+        //pop top most character
         void pop(){
             top--;
         }
 
+        //return the element at the top of the stack
         char atTop(){
             return st[top];
         }
 
+        //check whether the stack is empty
         boolean empty(){
             return top == -1;
         }
 
+        //check whether the element at top of the stack and the incoming element are matching
         boolean match(char ch){
             boolean ans;
             if(st[top] == '(' && ch == ')'){
@@ -82,6 +87,7 @@ public class validParenthesis {
         }
     }
 
+    //check whether the incoming character is parenthesis or not
     static boolean isParenthesis(char ch){
         switch(ch){
             case '(':
