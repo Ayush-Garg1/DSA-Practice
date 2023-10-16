@@ -44,11 +44,11 @@ Here's what We have DONE :
 
 
         while( stack is not empty )
-
+   
             output & pop stack top
 
 
-4. Conversion of an INFIX Expression To PREFIX Expression
+5. Conversion of an INFIX Expression To PREFIX Expression
 
     ALGORITHM:
 
@@ -56,7 +56,7 @@ Here's what We have DONE :
 
        (ii) convert this expresion into postfix expression
 
-      (iii) again reverse the expression received in step (ii)
+       (iii) again reverse the expression received in step (ii)
 
             This obtained expression is prefix expression
             
