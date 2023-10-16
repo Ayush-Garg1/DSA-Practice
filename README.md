@@ -14,27 +14,49 @@ Here's what We have DONE :
 3. Conversion of an INFIX Expression To POSTFIX Expression
 
     ALGORITHM:
+
         loop for each index of the i/p string
+
             if operand
+
                 output it
+
             else
+
                 if opening bracket
+
                     push in stack
+
                 if closing bracket
+
                     pop & output stack untill matching opening bracket is reached
+
                     pop once again to remove opening bracket from the stack
+
                 else
+
                     while (stack is not empty && precedence of incoming char in less than or equal to char at top of stack)
+
                         output & pop top of stack
+
                     push in stack the incoming char
 
+
+
         while( stack is not empty )
+
             output & pop stack top
+
 
 4. Conversion of an INFIX Expression To PREFIX Expression
 
     ALGORITHM:
+
         (i) reverse the input string (while reversing the string swap opening bracket with matching closing barcket and vice versa)
+
        (ii) convert this expresion into postfix expression
+
       (iii) again reverse the expression received in step (ii)
+
             This obtained expression is prefix expression
+            
