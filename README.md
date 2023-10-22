@@ -60,3 +60,17 @@ Here's what We have DONE :
 
             This obtained expression is prefix expression
             
+6. Evaluation of Postfix Expression
+
+   ALGORITHM :
+
+       for( i = 0 ; i < postfix.length() ; i++){
+           if operand
+               push in stack
+           else
+               b2 = pop stack
+               b1 = pop stack
+               res = operate(b1, operator, b2)        //User defined fun (as operator is in the form of character)
+               push res in stack
+       }
+   
