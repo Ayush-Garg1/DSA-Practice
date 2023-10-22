@@ -70,7 +70,7 @@ Here's what We have DONE :
            else
                b2 = pop stack
                b1 = pop stack
-               res = operate(b1, operator, b2)        //User defined fun (as operator is in the form character)
+               res = operate(b1, operator, b2)        //User defined fun (as operator is in the form of character)
                push res in stack
        }
    
