@@ -75,3 +75,4 @@ Here's what We have DONE :
        }
 
 7. Searching in a Stack
+8. Reverse a Stack
