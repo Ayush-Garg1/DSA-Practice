@@ -73,4 +73,5 @@ Here's what We have DONE :
                res = operate(b1, operator, b2)        //User defined fun (as operator is in the form of character)
                push res in stack
        }
-   
+
+7. Searching in a Stack
