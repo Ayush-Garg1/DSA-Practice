@@ -7,6 +7,7 @@ And with Collection Framework also
 Here's what We have DONE :
 
 
+# Stack
 1. STACK IMPLEMENTAION Using ARRAY
 
 2. VALID PARENTHESIS (Application of stack)
@@ -76,3 +77,28 @@ Here's what We have DONE :
 
 7. Searching in a Stack
 8. Reverse a Stack
+
+# Linked List
+
+1. All cases of Insertion
+
+    i. at first
+
+   ii. at last
+
+    iii. at particular index
+
+2. All cases of Deletion
+
+    i. at first
+
+   ii. at last
+
+    iii. at particular index
+
+    iv. last Kth node
+
+3. Size of a Linked list
+4. Find function
+5. Reverse linked list
+6. Reverse linked list using Recursion
