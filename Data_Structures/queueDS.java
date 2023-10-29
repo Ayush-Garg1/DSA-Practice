@@ -56,8 +56,5 @@ public class queueDS {
             q.insert(i+10);
             q.display();
         }
-        System.out.println();
-        q.insert(20);
-        q.display();
     }
 }
