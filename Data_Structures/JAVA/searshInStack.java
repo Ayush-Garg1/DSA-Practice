@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class pushAtBottomOfStack {
+public class searshInStack {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
         Stack<Integer> s = new Stack<>();
