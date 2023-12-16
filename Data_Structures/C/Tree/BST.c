@@ -71,6 +71,15 @@ node* delete(node *root, int val){
     return root;
 }
 
+int maxDepth(node *root){
+    if(root == NULL){
+        return 0;
+    }
+    int lh = maxDepth(root->left);
+    int rh = maxDepth(root->right);
+    return 1 + ( (lh > rh) ? lh : rh );
+}
+
 void preorder(node *root){
     if(root == NULL){
         return;
@@ -114,6 +123,7 @@ int main(){
     printf("\nPOSTORDER : ");
     postorder(root);
     printf("\nCount : %d\n",count(root));
+    printf("MAX Depth : %d",maxDepth(root));
 
     return 0;
 }
